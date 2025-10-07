@@ -1,0 +1,37 @@
+# Keypoint Detection Project – Run Instructions
+
+## Running Locally
+
+1. Create a clean Python virtual environment:
+   python -m venv keypoint_env
+
+2. Activate the environment:
+   - On Windows: keypoint_env\Scripts\activate
+   - On macOS/Linux: source keypoint_env/bin/activate
+
+3. Download all project files into a single folder:
+   - This includes .h5 models, .csv annotation files, .py scripts, .ipynb notebooks, and images.
+
+4. Install dependencies:
+   pip install -r requirements.txt
+
+5. Generate annotations:
+   Run `generate_labels.py` to create the keypoint annotation CSV file.
+
+6. Start experimentation:
+   Open and run any of the provided `.ipynb` notebooks to train, evaluate, or visualize predictions.
+
+---
+
+## Running on Google Colab
+
+1. Connect your Google Drive to Colab:
+   - Use `from google.colab import drive` and `drive.mount('/content/drive')`
+
+2. Upload or sync all project files to a folder in your Drive.
+
+3. Update file paths in the notebooks to match your Drive structure.
+
+4. Run the notebooks directly in Colab.
+
+---
